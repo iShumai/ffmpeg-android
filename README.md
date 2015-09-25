@@ -1,3 +1,9 @@
+[FFmpeg-Android Compile issues.]
+
+1. apt-get install libtool-dev textinfo autoconfig automake make.
+2. If we don't need the fontconfig just remove the enable option in ffmpeg_build.sh
+3. We might have issue of ./libass/autogen.sh permission denied. Just use chmod command to add execute permission
+
 [FFmpeg-Android](http://hiteshsondhi88.github.io/ffmpeg-android/) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-FFmpeg--Android-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/925)
 ==============
 
@@ -34,4 +40,3 @@ Get in touch with us - http://www.writingminds.com
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hiteshsondhi88/ffmpeg-android/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
